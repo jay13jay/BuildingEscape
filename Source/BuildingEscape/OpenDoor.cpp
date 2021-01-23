@@ -23,9 +23,7 @@ void UOpenDoor::BeginPlay()
 	FRotator CurrentRotation = GetOwner()->GetActorRotation();
 	ClosedDoor = CurrentRotation.Yaw;
 	OpenDoor = ClosedDoor - 90.f;
-	CurrentYaw = ClosedDoor;
-	HalfOpenDoor = ClosedDoor - 45.f;
-		
+	CurrentYaw = ClosedDoor;		
 	
 }
 

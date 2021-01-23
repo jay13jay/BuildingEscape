@@ -27,8 +27,9 @@ public:
 private:
 	float ClosedDoor;
 	float CurrentYaw;
-	float OpenDoor;
-	float HalfOpenDoor;
+
+	UPROPERTY(EditAnywhere)
+	float OpenDoor = -90.f;
 
 		
 };
